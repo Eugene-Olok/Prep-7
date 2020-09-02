@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit my needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit my needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit my needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/*My code */
+* {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 100px;
+}
+
+body {
+  font-family: "Montserrat Alternates", serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+/* header element */
+
+header .header-brand {
+  font-family: "Italianno", cursive;
+  font-size: 15px;
+  font-weight: 900;
+  color: #111;
+  word-spacing: 0.3em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header #nav-bar ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header #nav-bar ul li {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+#nav-bar ul li a {
+  font-family: "Montserrat Alternates", serif;
+  font-size: 16px;
+  font-weight: 900;
+  color: #111;
+  float: left;
+}
+
+#nav-bar ul li a:hover {
+  background-color: rgb(211, 215, 219);
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+/* welcome section */
+
+#welcome-section {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url("images2/dark-lapi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+#welcome-section h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+  text-shadow: 2px 2px 8px #111;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 30px;
+  text-shadow: 2px 2px 8px #111;
+  text-align: center;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* button links */
+
+#welcome-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #d4d3d3;
+  border-radius: 15px;
+}
+
+#welcome-links div h3 {
+  color: #111;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 100px;
+  text-align: center;
+}
+
+#welcome-links div:hover {
+    background-color: rgb(163, 159, 159);
+    transition: 0.5s ease-in-out;
+}
+
+/* PROJECTS */
+
+.projects .main-box div {
+  width: 250px;
+  height: 250px;
+  border-radius: 80px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/* ABOUT PAGE */
+
+h2 {
+  margin: auto;
+}
+
+.notes p {
+  text-align: center;
+  line-height: 30px;
+}
+
+/* footer */ 
+
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+  line-height: 40px;
+}
+
+footer ul li a {
+   font-size: 14px;
+   color: #fff;
+}
+
+/* social media images */
+
+.social-media-links {
+  width: 60px;
+  float: right;
+}
+
+.social-media-links img {
+  width: 30px;
+  margin-bottom: 5px;
+}
+
+/* desktop version media query*/
+
+@media only screen and (min-width: 1000px) {
+  header .header-brand {
+    margin: 30px 0;
+    text-align: left;
+    line-height: 40px;
+    padding: 0 20px 0 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+  header #nav-bar ul {
+    margin: 20px 0px 0px 20px;
+    float: left;
+  }
+  
+  #nav-bar ul li a {
+    line-height: 60px;
+  }
+  #welcome-section {
+    width: 100%;
+    height: 500px;
+  }
+  #welcome-section h1 {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  
+}
